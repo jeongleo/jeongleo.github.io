@@ -1,4 +1,7 @@
 # Leo's Pages
-## Title 1
-hello world. 
-hi.
+
+## [Combustion](/category/combustion/index.md)
+
+## [Mathematics](/category/math/index.md)
+
+## [Physics](/category/physics/index.md)
