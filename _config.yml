@@ -37,8 +37,8 @@ color_scheme: dark
 enable_copy_code_button: true
 
 # === 맨 위로 돌아가기 활성화 ===
-back_to_top: true
-back_to_top_text: "Back to top"
+# back_to_top: true
+# back_to_top_text: "Back to top"
 
 # === 컬렉션 ===
 # Define Jekyll collections
