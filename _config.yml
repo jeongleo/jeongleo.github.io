@@ -1,6 +1,9 @@
 title: Leo's Pages
 description: Leo's Personal Pages
 theme: just-the-docs
+plugins:
+  - jekyll-remote-theme # GitHub Pages에서 외부 테마 사용을 위해 필요
+
 
 url: https://jeongleo.github.io
 
