@@ -1,0 +1,72 @@
+site_name: Leo's Pages
+site_url: https://jeongleo.github.io
+
+theme:
+  name: material
+  custom_dir: overrides
+
+  font:
+    text: Nanum Gothic
+    code: Consolas
+
+  logo: assets/logo-512x512.png
+  favicon: assets/favicon.ico
+
+  features:
+    - navigation.instant
+    - navigation.tabs
+    # - navigation.sections
+    - navigation.path
+    - navigation.indexes
+    - toc.follow
+    - navigation.prune
+
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+      primary: blue grey
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+      primary: black
+      accent: deep orange
+
+markdown_extensions: 
+  - attr_list
+  # - pymdownx.emoji:
+  #     emoji_index: !!python/name:material.extensions.emoji.twemoji
+  #     emoji_generator: !!pyhton/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          # format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+
+plugins:
+  - meta
+
+# extra:
+#   social:
+#     - icon: fontawesome/brands/github
+#       link: https://github.com
+#       name: Github
+  # generator: false
+
+copyright: Copyright &copy; 2025 Minho Jeong. All rights reserved.
