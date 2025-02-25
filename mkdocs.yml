@@ -24,40 +24,44 @@ theme:
     # - navigation.prune      # 네비게이션 
 
   palette:
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: blue
-      accent: deep orange
-      toggle:
-        icon: material/brightness-7
-        name: Switch to Dark mode
-
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: deep orange
-      accent: blue
       toggle:
-        icon: material/brightness-4
-        name: Switch to Light mode
+          icon: material/brightness-4
+          name: Switch to Light mode
+      primary: custom
+      accent: deep orange
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to Dark mode
+      primary: custom
+      accent: deep orange
+
+    
 
   # palette:
   #   # Dark Mode
   #   - scheme: slate
   #     toggle:
-  #       icon: material/weather-night
-  #       name: Dark Mode
-  #     primary: blue grey
-  #     accent: deep purple
+  #         icon: material/brightness-4
+  #         name: Switch to Light mode
+  #     primary: blue
+  #     accent: deep orange
+      
 
   #   # Light Mode
   #   - scheme: default
   #     toggle:
-  #       icon: material/weather-sunny
-  #       name: Light Mode
-  #     primary: indigo
+  #       icon: material/brightness-7
+  #       name: Switch to Dark mode
+  #     primary: blue
   #     accent: deep orange
+      
 
 markdown_extensions: 
   - attr_list
@@ -89,5 +93,8 @@ plugins:
 #       link: https://github.com
 #       name: Github
   # generator: false
+
+extra_css:
+  - stylesheets/extra.css
 
 copyright: Copyright &copy; 2025 Minho Jeong. All rights reserved.
