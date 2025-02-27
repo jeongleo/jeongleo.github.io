@@ -8,36 +8,36 @@
 ## Getting Start
 ### PIP install
 - create venv
-  ```
-  python -m venv .venv
-  .venv\Scripts\activate
-  ```
+```
+python -m venv .venv
+.venv\Scripts\activate
+```
 
 - install mkdocs-material
-  ```
-  pip install mkdocs-material
+```
+pip install mkdocs-material
 
-  # 선택사항
-  pip install "mkdocs-material[imaging]"
-  ```
+# 선택사항
+pip install "mkdocs-material[imaging]"
+```
 ### Working mkdocs
 - Init mkdocs
-  ```
-  mkdocs new .
+```
+mkdocs new .
   ```
 
 - Edit mkdocs.yml
-  ```
-  site_name: Leo's Pages
-  site_url: https://jeongleo.github.io
-  theme:
-    name: material
-  ```
+```
+site_name: Leo's Pages
+site_url: https://jeongleo.github.io
+theme:
+  name: material
+```
 
 - Serve mkdocs
-  ```
-  mkdocs serve
-  ```
+```
+mkdocs serve
+```
 
 - 각각의 설정파일로 빌드 or 실행
 ```

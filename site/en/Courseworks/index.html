@@ -1,6 +1,6 @@
 
 <!doctype html>
-<html lang="ko" class="no-js">
+<html lang="en" class="no-js">
   <head>
     
       <meta charset="utf-8">
@@ -8,28 +8,28 @@
       
       
       
-        <link rel="canonical" href="https://jeongleo.github.io/Pastimes/RC_plane/build/002_FC_setting/">
+        <link rel="canonical" href="https://jeongleo.github.io/en/Courseworks/">
       
       
-        <link rel="prev" href="../001_build_aircraft/">
+        <link rel="prev" href="../">
       
       
-        <link rel="next" href="../../flight/2025-01-04/">
+        <link rel="next" href="001_Combustion/">
       
       
-      <link rel="icon" href="../../../../assets/images/favicon.ico">
+      <link rel="icon" href="../../assets/images/favicon.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.4">
     
     
       
-        <title>Flight Controller Configuration - Leo's Pages</title>
+        <title>Courseworks - Leo's Pages</title>
       
     
     
-      <link rel="stylesheet" href="../../../../assets/stylesheets/main.8608ea7d.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8608ea7d.min.css">
       
         
-        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -48,9 +48,9 @@
       
     
     
-      <link rel="stylesheet" href="../../../../assets/stylesheets/extra.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -59,11 +59,11 @@
       
         <meta  property="og:type"  content="website" >
       
-        <meta  property="og:title"  content="Flight Controller Configuration - Leo's Pages" >
+        <meta  property="og:title"  content="Courseworks - Leo's Pages" >
       
         <meta  property="og:description"  content="None" >
       
-        <meta  property="og:image"  content="https://jeongleo.github.io/assets/images/social/Pastimes/RC_plane/build/002_FC_setting.png" >
+        <meta  property="og:image"  content="https://jeongleo.github.io/assets/images/social/Courseworks/index.png" >
       
         <meta  property="og:image:type"  content="image/png" >
       
@@ -71,15 +71,15 @@
       
         <meta  property="og:image:height"  content="630" >
       
-        <meta  property="og:url"  content="https://jeongleo.github.io/Pastimes/RC_plane/build/002_FC_setting/" >
+        <meta  property="og:url"  content="https://jeongleo.github.io/en/Courseworks/" >
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
-        <meta  name="twitter:title"  content="Flight Controller Configuration - Leo's Pages" >
+        <meta  name="twitter:title"  content="Courseworks - Leo's Pages" >
       
         <meta  name="twitter:description"  content="None" >
       
-        <meta  name="twitter:image"  content="https://jeongleo.github.io/assets/images/social/Pastimes/RC_plane/build/002_FC_setting.png" >
+        <meta  name="twitter:image"  content="https://jeongleo.github.io/assets/images/social/Courseworks/index.png" >
       
     
     
@@ -102,8 +102,8 @@
     <div data-md-component="skip">
       
         
-        <a href="#flight-controller-configuration" class="md-skip">
-          콘텐츠로 이동
+        <a href="#courseworks" class="md-skip">
+          Skip to content
         </a>
       
     </div>
@@ -115,10 +115,10 @@
       
 
 <header class="md-header" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="상단/헤더">
-    <a href="../../../.." title="Leo&#39;s Pages" class="md-header__button md-logo" aria-label="Leo's Pages" data-md-component="logo">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../" title="Leo&#39;s Pages" class="md-header__button md-logo" aria-label="Leo's Pages" data-md-component="logo">
       
-  <img src="../../../../assets/images/logo-512x512.png" alt="logo">
+  <img src="../../assets/images/logo-512x512.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -135,7 +135,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Flight Controller Configuration
+              Courseworks
             
           </span>
         </div>
@@ -175,20 +175,20 @@
       <div class="md-header__option">
   <div class="md-select">
     
-    <button class="md-header__button md-icon" aria-label="언어설정">
+    <button class="md-header__button md-icon" aria-label="Select language">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
     </button>
     <div class="md-select__inner">
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="./" hreflang="ko" class="md-select__link">
+            <a href="../../Courseworks/" hreflang="ko" class="md-select__link">
               한국어
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../../../en/Pastimes/RC_plane/build/002_FC_setting/" hreflang="en" class="md-select__link">
+            <a href="./" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
@@ -210,7 +210,7 @@
         
           
             
-<nav class="md-tabs" aria-label="탭" data-md-component="tabs">
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
   <div class="md-grid">
     <ul class="md-tabs__list">
       
@@ -219,7 +219,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../.." class="md-tabs__link">
+      <a href="../" class="md-tabs__link">
         
   
     
@@ -234,11 +234,13 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../../../Courseworks/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
           
   
     
@@ -254,13 +256,11 @@
         
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../../../" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../Pastimes/" class="md-tabs__link">
           
   
     
@@ -293,11 +293,11 @@
   
 
 
-<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="네비게이션" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../../.." title="Leo&#39;s Pages" class="md-nav__button md-logo" aria-label="Leo's Pages" data-md-component="logo">
+    <a href="../" title="Leo&#39;s Pages" class="md-nav__button md-logo" aria-label="Leo's Pages" data-md-component="logo">
       
-  <img src="../../../../assets/images/logo-512x512.png" alt="logo">
+  <img src="../../assets/images/logo-512x512.png" alt="logo">
 
     </a>
     Leo's Pages
@@ -312,7 +312,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../.." class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -330,6 +330,8 @@
       
   
   
+    
+  
   
   
     
@@ -344,21 +346,24 @@
     
     
       
+        
+        
+      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../Courseworks/" class="md-nav__link ">
+            <a href="./" class="md-nav__link md-nav__link--active">
               
   
   <span class="md-ellipsis">
@@ -370,13 +375,13 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+              <label class="md-nav__link md-nav__link--active" for="__nav_2" id="__nav_2_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Courseworks
@@ -405,10 +410,13 @@
       
       
         
+          
+          
+        
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
@@ -417,7 +425,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../../Courseworks/001_Combustion/" class="md-nav__link ">
+            <a href="001_Combustion/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -429,7 +437,7 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_2_2" id="__nav_2_2_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
@@ -451,7 +459,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../Courseworks/001_Combustion/Introduction/" class="md-nav__link">
+      <a href="001_Combustion/Introduction/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -485,8 +493,6 @@
       
   
   
-    
-  
   
   
     
@@ -501,24 +507,21 @@
     
     
       
-        
-        
-      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../" class="md-nav__link ">
+            <a href="../Pastimes/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -530,13 +533,13 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Pastimes
@@ -549,8 +552,6 @@
                 
   
   
-    
-  
   
   
     
@@ -569,22 +570,19 @@
       
       
         
-          
-          
-        
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../" class="md-nav__link ">
+            <a href="../Pastimes/RC_plane/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -596,13 +594,13 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_3_2" id="__nav_3_2_label" tabindex="">
+              <label class="md-nav__link " for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_2">
             <span class="md-nav__icon md-icon"></span>
             RC plane
@@ -615,10 +613,8 @@
                 
   
   
-    
   
   
-  
     
     
       
@@ -634,11 +630,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_2" >
         
           
           <label class="md-nav__link" for="__nav_3_2_2" id="__nav_3_2_2_label" tabindex="0">
@@ -653,7 +649,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_2_2">
             <span class="md-nav__icon md-icon"></span>
             Build
@@ -667,7 +663,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../001_build_aircraft/" class="md-nav__link">
+      <a href="../Pastimes/RC_plane/build/001_build_aircraft/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -686,31 +682,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Flight Controller Configuration
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../Pastimes/RC_plane/build/002_FC_setting/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -720,59 +695,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="목차">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      목차
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#hardware" class="md-nav__link">
-    <span class="md-ellipsis">
-      Hardware
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Hardware">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#flight-controller-fc" class="md-nav__link">
-    <span class="md-ellipsis">
-      Flight Controller (FC)
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#parameters" class="md-nav__link">
-    <span class="md-ellipsis">
-      Parameters
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -842,7 +764,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../flight/2025-01-04/" class="md-nav__link">
+      <a href="../Pastimes/RC_plane/flight/2025-01-04/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -864,7 +786,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../flight/2025-02-08/" class="md-nav__link">
+      <a href="../Pastimes/RC_plane/flight/2025-02-08/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -886,7 +808,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../flight/2025-02-15/" class="md-nav__link">
+      <a href="../Pastimes/RC_plane/flight/2025-02-15/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -937,7 +859,7 @@
                   <div class="md-sidebar__inner">
                     
 
-<nav class="md-nav md-nav--secondary" aria-label="목차">
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
   
@@ -946,38 +868,14 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      목차
+      Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#hardware" class="md-nav__link">
+  <a href="#list-of-subjects" class="md-nav__link">
     <span class="md-ellipsis">
-      Hardware
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Hardware">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#flight-controller-fc" class="md-nav__link">
-    <span class="md-ellipsis">
-      Flight Controller (FC)
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#parameters" class="md-nav__link">
-    <span class="md-ellipsis">
-      Parameters
+      List of Subjects
     </span>
   </a>
   
@@ -999,28 +897,11 @@
 
 
 
-<h1 id="flight-controller-configuration">Flight Controller Configuration</h1>
-<h2 id="hardware">Hardware</h2>
-<h3 id="flight-controller-fc">Flight Controller (FC)</h3>
-<ul>
-<li>Matek H743 WLITH<blockquote>
-<p><a href="https://www.mateksys.com/?portfolio=h743-wlite#tab-id-4">제품 페이지</a></p>
-</blockquote>
-</li>
-</ul>
-<h2 id="parameters">Parameters</h2>
-<p>펌웨어는 Ardupilot Plane v4.5.7 사용</p>
-<ul>
-<li>Serial</li>
-<li>SERIAL7_OPTION: 3</li>
-<li>OSD</li>
-<li>MSP_OPTIONS: 4 (Enable BTFL Fonts)</li>
-<li>OSD_TYPE: 5 (msp_displayport)</li>
-<li>SERIAL5_PROTOCOL: 42 (displayport)</li>
-<li>Servo</li>
-<li>SERVOn_FUNCTION: 적절한 핀을 원하는 기능에 맞게 설정
-    혹은 Mission Planner 설정 항목에서도 설정 가능</li>
-</ul>
+<h1 id="courseworks">Courseworks</h1>
+<p>This will be a place where I organize what I've studied.</p>
+<h2 id="list-of-subjects">List of Subjects</h2>
+<p><a class="md-button" href="./001_Combustion/">Combustion</a></p>
+<hr />
 
 
 
@@ -1035,61 +916,6 @@
 
 
 
-
-  <h2 id="__comments">댓글</h2>
-  <!-- Insert generated snippet here -->
-  <script src="https://giscus.app/client.js"
-    data-repo="jeongleo/giscus-leo"
-    data-repo-id="R_kgDON63PcA"
-    data-category="Announcements"
-    data-category-id="DIC_kwDON63PcM4CnClY"
-    data-mapping="pathname"
-    data-strict="0"
-    data-reactions-enabled="1"
-    data-emit-metadata="1"
-    data-input-position="bottom"
-    data-theme="preferred_color_scheme"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-  </script>
-
-  <!-- Synchronize Giscus theme with palette -->
-  <script>
-    var giscus = document.querySelector("script[src*=giscus]")
-
-    // Set palette on initial load
-    var palette = __md_get("__palette")
-    if (palette && typeof palette.color === "object") {
-      var theme = palette.color.scheme === "slate"
-        ? "transparent_dark"
-        : "light"
-
-      // Instruct Giscus to set theme
-      giscus.setAttribute("data-theme", theme) 
-    }
-
-    // Register event handlers after documented loaded
-    document.addEventListener("DOMContentLoaded", function() {
-      var ref = document.querySelector("[data-md-component=palette]")
-      ref.addEventListener("change", function() {
-        var palette = __md_get("__palette")
-        if (palette && typeof palette.color === "object") {
-          var theme = palette.color.scheme === "slate"
-            ? "transparent_dark"
-            : "light"
-
-          // Instruct Giscus to change theme
-          var frame = document.querySelector(".giscus-frame")
-          frame.contentWindow.postMessage(
-            { giscus: { setConfig: { theme } } },
-            "https://giscus.app"
-          )
-        }
-      })
-    })
-  </script>
 
                 
               </article>
@@ -1102,7 +928,7 @@
           <button type="button" class="md-top md-icon" data-md-component="top" hidden>
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
-  맨위로
+  Back to top
 </button>
         
       </main>
@@ -1135,10 +961,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.instant", "navigation.tabs", "navigation.sections", "navigation.indexes", "toc.follow", "navigation.top"], "search": "../../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "\ud074\ub9bd\ubcf4\ub4dc\uc5d0 \ubcf5\uc0ac\ub428", "clipboard.copy": "\ud074\ub9bd\ubcf4\ub4dc\ub85c \ubcf5\uc0ac", "search.result.more.one": "\uc774 \ubb38\uc11c\uc5d0\uc11c 1\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.more.other": "\uc774 \ubb38\uc11c\uc5d0\uc11c #\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.none": "\uac80\uc0c9\uc5b4\uc640 \uc77c\uce58\ud558\ub294 \ubb38\uc11c\uac00 \uc5c6\uc2b5\ub2c8\ub2e4", "search.result.one": "1\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.other": "#\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.placeholder": "\uac80\uc0c9\uc5b4\ub97c \uc785\ub825\ud558\uc138\uc694", "search.result.term.missing": "\ud3ec\ud568\ub418\uc9c0 \uc54a\uc740 \uac80\uc0c9\uc5b4", "select.version": "\ubc84\uc804 \uc120\ud0dd"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tabs", "navigation.sections", "navigation.indexes", "toc.follow", "navigation.top"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../../assets/javascripts/bundle.f1b6f286.min.js"></script>
+      <script src="../../assets/javascripts/bundle.f1b6f286.min.js"></script>
       
     
   </body>
