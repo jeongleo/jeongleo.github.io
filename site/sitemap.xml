@@ -1,79 +1,185 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-         <loc>https://jeongleo.github.io/blog/</loc>
-         <lastmod>2025-02-27</lastmod>
+        <loc>https://jeongleo.github.io/</loc>
+        <lastmod>2025-02-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeongleo.github.io/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://jeongleo.github.io/ko/"/>
     </url>
     <url>
-         <loc>https://jeongleo.github.io/blog/Pastimes/</loc>
-         <lastmod>2025-02-27</lastmod>
+        <loc>https://jeongleo.github.io/About_Me/</loc>
+        <lastmod>2025-02-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeongleo.github.io/About_Me/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://jeongleo.github.io/ko/About_Me/"/>
     </url>
     <url>
-         <loc>https://jeongleo.github.io/blog/Pastimes/RC_plane/</loc>
-         <lastmod>2025-02-27</lastmod>
+        <loc>https://jeongleo.github.io/Courseworks/</loc>
+        <lastmod>2025-02-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeongleo.github.io/Courseworks/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://jeongleo.github.io/ko/Courseworks/"/>
     </url>
     <url>
-         <loc>https://jeongleo.github.io/blog/Pastimes/RC_plane/build/001_build_aircraft/</loc>
-         <lastmod>2025-02-27</lastmod>
+        <loc>https://jeongleo.github.io/Courseworks/001_Combustion/</loc>
+        <lastmod>2025-02-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeongleo.github.io/Courseworks/001_Combustion/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://jeongleo.github.io/ko/Courseworks/001_Combustion/"/>
     </url>
     <url>
-         <loc>https://jeongleo.github.io/blog/Pastimes/RC_plane/build/002_FC_setting/</loc>
-         <lastmod>2025-02-27</lastmod>
+        <loc>https://jeongleo.github.io/Courseworks/001_Combustion/Introduction/</loc>
+        <lastmod>2025-02-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeongleo.github.io/Courseworks/001_Combustion/Introduction/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://jeongleo.github.io/ko/Courseworks/001_Combustion/Introduction/"/>
     </url>
     <url>
-         <loc>https://jeongleo.github.io/blog/Pastimes/RC_plane/flight/2025-01-04/</loc>
-         <lastmod>2025-02-27</lastmod>
+        <loc>https://jeongleo.github.io/Pastimes/</loc>
+        <lastmod>2025-02-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeongleo.github.io/Pastimes/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://jeongleo.github.io/ko/Pastimes/"/>
     </url>
     <url>
-         <loc>https://jeongleo.github.io/blog/Pastimes/RC_plane/flight/2025-02-08/</loc>
-         <lastmod>2025-02-27</lastmod>
+        <loc>https://jeongleo.github.io/Pastimes/RC_plane/</loc>
+        <lastmod>2025-02-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeongleo.github.io/Pastimes/RC_plane/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://jeongleo.github.io/ko/Pastimes/RC_plane/"/>
     </url>
     <url>
-         <loc>https://jeongleo.github.io/blog/Pastimes/RC_plane/flight/2025-02-15/</loc>
-         <lastmod>2025-02-27</lastmod>
+        <loc>https://jeongleo.github.io/Pastimes/RC_plane/build/001_build_aircraft/</loc>
+        <lastmod>2025-02-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeongleo.github.io/Pastimes/RC_plane/build/001_build_aircraft/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://jeongleo.github.io/ko/Pastimes/RC_plane/build/001_build_aircraft/"/>
     </url>
     <url>
-         <loc>https://jeongleo.github.io/blog/Projects/Create%20My%20Pages/</loc>
-         <lastmod>2025-02-27</lastmod>
+        <loc>https://jeongleo.github.io/Pastimes/RC_plane/build/002_FC_setting/</loc>
+        <lastmod>2025-02-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeongleo.github.io/Pastimes/RC_plane/build/002_FC_setting/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://jeongleo.github.io/ko/Pastimes/RC_plane/build/002_FC_setting/"/>
     </url>
     <url>
-         <loc>https://jeongleo.github.io/en/</loc>
-         <lastmod>2025-02-27</lastmod>
+        <loc>https://jeongleo.github.io/Pastimes/RC_plane/flight/2025-01-04/</loc>
+        <lastmod>2025-02-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeongleo.github.io/Pastimes/RC_plane/flight/2025-01-04/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://jeongleo.github.io/ko/Pastimes/RC_plane/flight/2025-01-04/"/>
     </url>
     <url>
-         <loc>https://jeongleo.github.io/en/About_Me/</loc>
-         <lastmod>2025-02-27</lastmod>
+        <loc>https://jeongleo.github.io/Pastimes/RC_plane/flight/2025-02-08/</loc>
+        <lastmod>2025-02-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeongleo.github.io/Pastimes/RC_plane/flight/2025-02-08/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://jeongleo.github.io/ko/Pastimes/RC_plane/flight/2025-02-08/"/>
     </url>
     <url>
-         <loc>https://jeongleo.github.io/en/Courseworks/</loc>
-         <lastmod>2025-02-27</lastmod>
+        <loc>https://jeongleo.github.io/Pastimes/RC_plane/flight/2025-02-15/</loc>
+        <lastmod>2025-02-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeongleo.github.io/Pastimes/RC_plane/flight/2025-02-15/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://jeongleo.github.io/ko/Pastimes/RC_plane/flight/2025-02-15/"/>
     </url>
     <url>
-         <loc>https://jeongleo.github.io/en/Courseworks/001_Combustion/</loc>
-         <lastmod>2025-02-27</lastmod>
+        <loc>https://jeongleo.github.io/Projects/Create%20My%20Pages/</loc>
+        <lastmod>2025-02-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeongleo.github.io/Projects/Create%20My%20Pages/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://jeongleo.github.io/ko/Projects/Create%20My%20Pages/"/>
     </url>
     <url>
-         <loc>https://jeongleo.github.io/en/Courseworks/001_Combustion/Introduction/</loc>
-         <lastmod>2025-02-27</lastmod>
+        <loc>https://jeongleo.github.io/ko/</loc>
+        <lastmod>2025-02-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://jeongleo.github.io/ko/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeongleo.github.io/"/>
     </url>
     <url>
-         <loc>https://jeongleo.github.io/ko/</loc>
-         <lastmod>2025-02-27</lastmod>
+        <loc>https://jeongleo.github.io/ko/About_Me/</loc>
+        <lastmod>2025-02-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://jeongleo.github.io/ko/About_Me/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeongleo.github.io/About_Me/"/>
     </url>
     <url>
-         <loc>https://jeongleo.github.io/ko/About_Me/</loc>
-         <lastmod>2025-02-27</lastmod>
+        <loc>https://jeongleo.github.io/ko/Courseworks/</loc>
+        <lastmod>2025-02-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://jeongleo.github.io/ko/Courseworks/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeongleo.github.io/Courseworks/"/>
     </url>
     <url>
-         <loc>https://jeongleo.github.io/ko/Courseworks/</loc>
-         <lastmod>2025-02-27</lastmod>
+        <loc>https://jeongleo.github.io/ko/Courseworks/001_Combustion/</loc>
+        <lastmod>2025-02-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://jeongleo.github.io/ko/Courseworks/001_Combustion/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeongleo.github.io/Courseworks/001_Combustion/"/>
     </url>
     <url>
-         <loc>https://jeongleo.github.io/ko/Courseworks/001_Combustion/</loc>
-         <lastmod>2025-02-27</lastmod>
+        <loc>https://jeongleo.github.io/ko/Courseworks/001_Combustion/Introduction/</loc>
+        <lastmod>2025-02-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://jeongleo.github.io/ko/Courseworks/001_Combustion/Introduction/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeongleo.github.io/Courseworks/001_Combustion/Introduction/"/>
     </url>
     <url>
-         <loc>https://jeongleo.github.io/ko/Courseworks/001_Combustion/Introduction/</loc>
-         <lastmod>2025-02-27</lastmod>
+        <loc>https://jeongleo.github.io/ko/Pastimes/</loc>
+        <lastmod>2025-02-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://jeongleo.github.io/ko/Pastimes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeongleo.github.io/Pastimes/"/>
+    </url>
+    <url>
+        <loc>https://jeongleo.github.io/ko/Pastimes/RC_plane/</loc>
+        <lastmod>2025-02-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://jeongleo.github.io/ko/Pastimes/RC_plane/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeongleo.github.io/Pastimes/RC_plane/"/>
+    </url>
+    <url>
+        <loc>https://jeongleo.github.io/ko/Pastimes/RC_plane/build/001_build_aircraft/</loc>
+        <lastmod>2025-02-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://jeongleo.github.io/ko/Pastimes/RC_plane/build/001_build_aircraft/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeongleo.github.io/Pastimes/RC_plane/build/001_build_aircraft/"/>
+    </url>
+    <url>
+        <loc>https://jeongleo.github.io/ko/Pastimes/RC_plane/build/002_FC_setting/</loc>
+        <lastmod>2025-02-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://jeongleo.github.io/ko/Pastimes/RC_plane/build/002_FC_setting/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeongleo.github.io/Pastimes/RC_plane/build/002_FC_setting/"/>
+    </url>
+    <url>
+        <loc>https://jeongleo.github.io/ko/Pastimes/RC_plane/flight/2025-01-04/</loc>
+        <lastmod>2025-02-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://jeongleo.github.io/ko/Pastimes/RC_plane/flight/2025-01-04/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeongleo.github.io/Pastimes/RC_plane/flight/2025-01-04/"/>
+    </url>
+    <url>
+        <loc>https://jeongleo.github.io/ko/Pastimes/RC_plane/flight/2025-02-08/</loc>
+        <lastmod>2025-02-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://jeongleo.github.io/ko/Pastimes/RC_plane/flight/2025-02-08/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeongleo.github.io/Pastimes/RC_plane/flight/2025-02-08/"/>
+    </url>
+    <url>
+        <loc>https://jeongleo.github.io/ko/Pastimes/RC_plane/flight/2025-02-15/</loc>
+        <lastmod>2025-02-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://jeongleo.github.io/ko/Pastimes/RC_plane/flight/2025-02-15/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeongleo.github.io/Pastimes/RC_plane/flight/2025-02-15/"/>
+    </url>
+    <url>
+        <loc>https://jeongleo.github.io/ko/Projects/Create%20My%20Pages/</loc>
+        <lastmod>2025-02-27</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://jeongleo.github.io/ko/Projects/Create%20My%20Pages/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://jeongleo.github.io/Projects/Create%20My%20Pages/"/>
     </url>
 </urlset>

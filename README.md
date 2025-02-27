@@ -4,6 +4,7 @@
 [Documentaion](https://squidfunk.github.io/mkdocs-material/)  
 [Guide YouTube Video](https://www.youtube.com/watch?v=xlABhbnNrfI)  
 
+
 ## Getting Start
 ### PIP install
 - create venv
@@ -54,3 +55,6 @@ mkdocs serve -f mkdocs.blog.yml
 ```
 mkdocs gh-deploy --force
 ```
+
+## 참고; 다국어 지원
+[MkDocs i18n plugin](https://ultrabug.github.io/mkdocs-static-i18n/)
