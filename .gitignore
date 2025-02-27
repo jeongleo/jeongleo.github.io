@@ -1,1 +1,3 @@
-.venv
+.venv/
+.cache/
+작성중/

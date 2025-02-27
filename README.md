@@ -38,4 +38,19 @@
   mkdocs serve
   ```
 
-  
+- 각각의 설정파일로 빌드 or 실행
+```
+mkdocs build -f mkdocs.en.yml
+mkdocs build -f mkdocs.ko.yml
+mkdocs build -f mkdocs.blog.yml
+
+mkdocs serve -f mkdocs.en.yml
+mkdocs serve -f mkdocs.ko.yml
+mkdocs serve -f mkdocs.blog.yml
+
+```
+
+- github pages deply
+```
+mkdocs gh-deploy --force
+```
