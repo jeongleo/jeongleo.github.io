@@ -1,8 +1,3 @@
----
-comments: true
----
-
-
 # Build RC Airplane
 
 ## Hardware

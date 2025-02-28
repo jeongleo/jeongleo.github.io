@@ -1,21 +1,11 @@
----
+<!-- ---
 title: RC Plane
-layout: default
-nav_order: 1
----
-<!-- 목차 -
-1. TOC
-{:toc} -->
+# layout: default
+# nav_order: 1
+--- -->
 
-RC Plane
-==========
+# RC Plane
+FPV(1인칭) RC 모델 비행기 날리기
 
-하늘을 새처럼 날고 싶은데
-
-비행기 몰 돈이 없어서
-
-RC 비행기를 날리기로 했다.
-
-대신 카메라를 달아서 실시간으로 영상을 보며
-
-일인칭 시점으로 비행하기로 하였다.
+[Build](./build/001_build_aircraft.md){ .md-button}
+[Flight](./flight/2025-01-04.md){ .md-button}

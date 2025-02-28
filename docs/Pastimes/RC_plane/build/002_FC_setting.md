@@ -1,7 +1,3 @@
----
-comments: true
----
-
 # Flight Controller Configuration
 
 ## Hardware
