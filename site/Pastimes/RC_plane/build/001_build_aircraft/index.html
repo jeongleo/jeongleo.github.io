@@ -83,7 +83,16 @@
       
     
     
-  </head>
+   <link href="../../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -936,18 +945,21 @@
 
 
 <h1 id="build-rc-airplane">Build RC Airplane</h1>
+<p><a class="glightbox" href="../image/%EA%B8%B0%EC%B2%B4%EC%82%AC%EC%A7%84.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Full Aircraft" src="../image/%EA%B8%B0%EC%B2%B4%EC%82%AC%EC%A7%84.jpg" width="500" /></a></p>
 <h2 id="hardware">Hardware</h2>
 <h3 id="aircraft">Aircraft</h3>
 <p>알리발 Skysurfer 레플리카</p>
 <h3 id="rc-transmitter-and-receiver">RC Transmitter and Receiver</h3>
-<p>Radiomaster Boxer Crush &amp; Radiomaster ER6</p>
+<p>Radiomaster Boxer Crush &amp; Radiomaster ER6<br />
+<a class="glightbox" href="../image/%EC%A1%B0%EC%A2%85%EA%B8%B0.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../image/%EC%A1%B0%EC%A2%85%EA%B8%B0.jpg" width="500" /></a></p>
 <h3 id="telemetry">Telemetry</h3>
 <p>Holybro Sik Telemetry 915MHz 500mW</p>
 <h3 id="flight-controller">Flight Controller</h3>
 <p>Matek H743 WLITE<br />
 Firmware: Ardupilot Plane</p>
 <h3 id="video-transmission-system">Video Transmission System</h3>
-<p>DJI O3 &amp; DJI Goggle 3</p>
+<p>DJI O3 &amp; DJI Goggle 3<br />
+<a class="glightbox" href="../image/%EA%B3%A0%EA%B8%80.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../image/%EA%B3%A0%EA%B8%80.jpg" width="500" /></a></p>
 <h3 id="head-tracking">Head tracking</h3>
 <p>헤드 트래커는 아래의 오픈 소스를 사용하였다.</p>
 <blockquote>
@@ -1086,6 +1098,12 @@ Firmware: Ardupilot Plane</p>
       
         <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
       
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

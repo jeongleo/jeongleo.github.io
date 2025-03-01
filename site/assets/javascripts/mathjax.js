@@ -1,9 +1,11 @@
 window.MathJax = {
+  loader: {load: ['[tex]/mhchem']}, // 화학반응식을 위한 mhchem
   tex: {
     inlineMath: [["\\(", "\\)"]],
     displayMath: [["\\[", "\\]"]],
     processEscapes: true,
-    processEnvironments: true
+    processEnvironments: true,
+    packages: {'[+]': ['mhchem']} // 화학반응식을 위한 mhchem
   },
   options: {
     ignoreHtmlClass: ".*|",

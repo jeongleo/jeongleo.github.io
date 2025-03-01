@@ -83,7 +83,16 @@
       
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -637,14 +646,20 @@
   
 </li>
         
-          <li class="md-nav__item">
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#6-combustion-dynamics" class="md-nav__link">
     <span class="md-ellipsis">
       6. Combustion dynamics
     </span>
   </a>
   
-</li>
+    <nav class="md-nav" aria-label="6. Combustion dynamics">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#61-elementary-interactions-in-combustion-dynamics" class="md-nav__link">
@@ -956,14 +971,20 @@
   
 </li>
         
-          <li class="md-nav__item">
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#6-combustion-dynamics" class="md-nav__link">
     <span class="md-ellipsis">
       6. Combustion dynamics
     </span>
   </a>
   
-</li>
+    <nav class="md-nav" aria-label="6. Combustion dynamics">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#61-elementary-interactions-in-combustion-dynamics" class="md-nav__link">
@@ -1061,9 +1082,22 @@
 <h1 id="advances-in-combustion-and-propulsion-applications-review">Advances in combustion and propulsion applications - Review</h1>
 <hr />
 <h2 id="0-abstract">0. Abstract</h2>
-<p>The Aerodynamics Institute at RWTH</p>
-<p>이 논문에서는 항공우주 추진에서 중요한 부분인 연소에 중점을 둔다.<br />
-Karman 의 </p>
+<p>지난 백년간 짧은 기간에도 불구하고 항공 및 우주산업은 크게 발전하였다.<br />
+이런 기술적 진보는 항공우주분야의 과학과 공학의 발전 없이 성취될 수 없었다.  </p>
+<p>RWTH 의 공기역학연구소는 과학적 업적 달성에서 중요한 역할을 했다.<br />
+Theodore Von Karman는 첫번째 소장으로서 연구소가 이 분야를 선도할 수 있도록 했다.<br />
+연구소 100주년을 기념하여, 몇몇 핵심 분야에서 성취한 진보를 살펴보기로 한다.</p>
+<p>여기서는 연소공학에 중점을 두고자 하는데, 이는 항공우주 추진에서의 중요성이 크기 때문이다.<br />
+실험에서 레이저 진단, 고속 이미징, 수치적 데이터 처리 같은 중요한 개발이 이루어지면서 이론적 수준의 진보가 성취될 수 있었다.<br />
+전산 연소 분야의 발전은 이 분야의 과학적 연구와 공학적 응용에 큰 영향을 미쳤다.  </p>
+<p>연소에서 발생하는 핵심 이슈들부터 시작해서, 항공우주추진에서 관심있게 다루는 다음과 같이 선택된 주제들에 대한 발전 사항을 설명한다.  </p>
+<ul>
+<li>화염구조 및 화염의 구체적인 모델링</li>
+<li>난류 연소</li>
+<li>극저온 화염 및 과도 임계 연소</li>
+<li>연소 동역학</li>
+<li>전산 화염 동역학</li>
+</ul>
 <hr />
 <h2 id="1-introduction">1. Introduction</h2>
 <p>이 논문은 <em>Aerodynamicsches Institut</em> 설립 100주년을 기념하여 작성되었다.<br />
@@ -1094,11 +1128,6 @@ Zeldovich 와 그의 동료들은 중요한 이론적 진보를 이루었다.</p
 <p>자동차 엔진은 실린더에서의 화염 동역학에 대한 완전한 이해 없이 설계되었다.<br />
 가스 터빈 연소기는 난류 유동과 열방출 반응 사이의 상호작용에 대한 제한적 이해만을 가지고 개발되었다.<br />
 로켓 엔진은 고압 추력기에서의 복잡한 과정의 완전한 설명 없이 고안되었다.  </p>
-<p>Frank Marble 은 이전의 글에서 연소 이론은 연소기와 추력기의 기술적 발전에 정보를 제공하는 것과는 거리가 멀었으며,<br />
-연소가 공학으로 확립하기 위해 노력이 필요했다고 언급했다.</p>
-<hr />
-<!-- 과학적 성취를 가늠하기 위해, -->
-
 <hr />
 <h2 id="2-fundamental-issues-in-combustion">2. Fundamental issues in combustion</h2>
 <p>연소 과학은 유체 역학, 열 및 물질 전달, 열역학, 화학 반응론 및 전달 현상 등 다양한 학문을 복잡하게 융합한다.<br />
@@ -1140,7 +1169,7 @@ Zeldovich 와 그의 동료들은 중요한 이론적 진보를 이루었다.</p
 <h3 id="51-transcritical-conditions">5.1. Transcritical conditions</h3>
 <h3 id="52-experiments-on-cryogenic-jet-flames">5.2. Experiments on cryogenic jet flames</h3>
 <h3 id="53-transcritical-combustion">5.3. Transcritical combustion</h3>
-<h3 id="6-combustion-dynamics">6. Combustion dynamics</h3>
+<h2 id="6-combustion-dynamics">6. Combustion dynamics</h2>
 <h3 id="61-elementary-interactions-in-combustion-dynamics">6.1. Elementary interactions in combustion dynamics</h3>
 <h3 id="62-flame-transfer-function">6.2. Flame transfer function</h3>
 <h3 id="63-flame-dynamics">6.3. Flame dynamics</h3>
@@ -1219,6 +1248,12 @@ Zeldovich 와 그의 동료들은 중요한 이론적 진보를 이루었다.</p
       
         <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
       
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

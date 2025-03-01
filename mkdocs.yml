@@ -4,6 +4,7 @@ site_url: https://jeongleo.github.io/
 theme:
   name: material
   custom_dir: overrides
+  languages: ko
 
   font:
     text: Nanum Gothic
@@ -72,15 +73,18 @@ markdown_extensions:
       alternate_style: true
   - admonition
   - pymdownx.details
+
+  # 이미지 configuration
   - md_in_html
   - pymdownx.blocks.caption
 
   # for MathJax
   - pymdownx.arithmatex:
       generic: true
-
+  # - mdx_math
 
 plugins:
+  # 다국어 지원원
   - i18n:
       docs_structure: suffix
       fallback_to_default: true
@@ -93,6 +97,9 @@ plugins:
         #   name: English
         #   build: true
 
+  # 이미지 확대
+  - glightbox
+
   - meta
   - social:
       cards_layout_options:
@@ -104,5 +111,8 @@ extra_css:
 extra_javascript:
   - assets/javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  # 수식 복사를 위해 추가됨
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 copyright: Copyright &copy; 2025 Minho Jeong. All rights reserved.

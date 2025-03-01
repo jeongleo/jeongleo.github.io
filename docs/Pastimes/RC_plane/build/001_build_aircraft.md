@@ -1,11 +1,14 @@
 # Build RC Airplane
 
+![Full Aircraft](./image/기체사진.jpg){width="500"}
+
 ## Hardware
 ### Aircraft
 알리발 Skysurfer 레플리카
 
 ### RC Transmitter and Receiver
-Radiomaster Boxer Crush & Radiomaster ER6
+Radiomaster Boxer Crush & Radiomaster ER6  
+![](./image/조종기.jpg){width="500"}
 
 ### Telemetry
 Holybro Sik Telemetry 915MHz 500mW
@@ -16,7 +19,8 @@ Firmware: Ardupilot Plane
 
 
 ### Video Transmission System
-DJI O3 & DJI Goggle 3
+DJI O3 & DJI Goggle 3  
+![](./image/고글.jpg){width="500"}
 
 ### Head tracking
 
